@@ -12,7 +12,4 @@
         <button><i class="fa fa-info fa-1x"></i> Modalità di adesione come gestore di eventi</button>
     </a>
     &emsp;
-    <a href="doc/Documentazione.pdf">
-        <button><i class="fa fa-file-text fa-1x"></i> Doc</button>
-    </a>
 </footer>

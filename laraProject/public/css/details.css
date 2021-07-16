@@ -1,0 +1,208 @@
+/*
+Stili della pagina dei dettagli dell'evento
+*/
+
+#Event {
+    background-color: black;
+    margin: 5%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px;
+    border-style: solid;
+    border-color: black;;
+    border-radius: 10px;
+    border-style: dotted;
+}
+
+#Event:hover {
+    background-color: black;
+}
+
+#Name {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#Image {
+    float: left;
+}
+
+#Image img{
+    padding: 20px;
+    max-height: 350px;
+}
+
+#Details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Details_Top_Left {
+    float: left;
+}
+
+#Details_Top_Left p {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#Details_Top_Right #Price {
+    color: white;
+    text-align: right;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+#Details_Top_Right #Price-vecchio {
+    color: red;
+    text-align: right;
+    font-size: 45px;
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+
+#Details_Bottom {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Details_Bottom p {
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 8px 0px;
+    width: 88px;
+    text-align: right;
+}
+
+#Details_Bottom form #Partecipate {
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+    /*
+    Colore rosso del logo
+    */
+    background-color: #c40000;
+    font-size: 14px;
+    padding: 6px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#Details_Bottom form #Partecipate:hover {
+    background-color: darkred;
+}
+
+#Details_Bottom form {
+    margin-left: 15px;
+    padding-top: 2.5px;
+}
+
+#Details_Bottom form input {
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-size: 14px;
+    margin-left: 35px;
+    padding: 6px;
+    width: 100px;
+}
+
+#Details_Bottom form select, #Details_Bottom form button {
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 6px;
+}
+
+#Details_Bottom form button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+#Center_Info {
+    clear: left;
+}
+
+#Center_Info h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    padding-left: 20px;
+}
+
+#Center_Info p {
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+#Bottom_Info {
+    margin-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Map_Container {
+    display: flex;
+    flex-direction: row;
+}
+
+#Map {
+    width: 450px;
+    height: 280px;
+}
+
+#Reach_Us {
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+#Reach_Us h2{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+#Reach_Us p {
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.Errors {
+    color: red;
+    margin-left: 170px;
+}
+
+.Response {
+    font-size: 16px;
+    color: red;
+    margin-left: 25px;
+}
+
+.Success {
+    font-size: 16px;
+    color: white;
+    margin-left: 25px;
+}

@@ -1,0 +1,63 @@
+/*
+Stili della pagina delle statistiche
+*/
+
+#Container {
+    width: 50%;
+    margin: 5% auto;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    padding: 25px;
+    background-color: black;
+}
+
+#Container h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+table {
+    margin: 2% auto;
+    width: 100%;
+}
+
+th {
+    border: 1px solid white;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid white;
+    text-align: left;
+    color:white;
+    font-size: 18px;
+    font-style: italic;
+    padding: 5px;
+}
+
+.Button {
+    text-align: center;
+}
+
+.Button button {
+    padding: 5px;
+    border-collapse: collapse;
+    border-color: black;
+    border: 3px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.Button button:hover {
+    background-color: gray;
+}

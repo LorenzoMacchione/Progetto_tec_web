@@ -1,0 +1,73 @@
+/*
+Stili della pagina di creazione/modifica delle faq
+*/
+
+#Modify_Div {
+    min-height: calc(100vh - 570px);
+    display: flex;
+    align-items: center;
+    margin: 5% 0%;
+}
+
+#Modify {
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    width: min-content;
+    font-size: 25px;
+    background-color: black;
+}
+
+#Modify h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#Modify label{
+    margin: 3px;
+    color: white;
+}
+
+#Modify input {
+    margin: 5px 3px;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+.submit {
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: gray;
+}
+
+.errors {
+    margin-bottom: 5px;
+}
+
+.errors li {
+    color: red;
+    padding-left: 4px;
+    font-size: 12px;
+}

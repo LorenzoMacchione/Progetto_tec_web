@@ -1,0 +1,190 @@
+/*
+Stili per la creazione/modifica di un evento
+*/
+
+#Event {
+    margin: 5% 10%;
+    width: auto;
+    background-color: black;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+#Event form {
+    color: white;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Event form h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#Top {
+    display: flex;
+    flex-direction: row;
+}
+
+#Image {
+    width: 30%;
+}
+
+#Image h2 {
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#Image label {
+    margin: 0 auto;
+}
+
+#Info {
+    margin-left: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Errors {
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#Info label {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#Info input, #Info select {
+    display: block;
+    padding: 2.5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#Titolo input {
+    width: 50%;
+}
+
+#Date_Time_Info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#Data {
+    width: 25%;
+}
+
+#Location_Info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#Luogo {
+    width: 50%
+}
+
+#Luogo input {
+    width: 90%;
+}
+
+#Buy_Info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#Prezzo {
+    width: 30%;
+}
+
+#Prezzo input {
+    width: 75%;
+}
+
+#Discount_Info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#Inizio_Sconto {
+    width: 30%;
+}
+
+#Inizio_Sconto input {
+    width: 80%;
+}
+
+#Sconto input {
+    width: 30%;
+    padding: 5px;
+}
+
+#Bottom {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Bottom label {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#Bottom textarea {
+    display: block;
+    width: 100%;
+    padding: 2.5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#map-container {
+    min-height: 350px;
+    height: auto;
+    margin-top: 10px;
+}
+
+#map {
+    height: 350px;
+    width: 500px;  
+}
+
+#map-container p {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+#Submit {
+    text-align: right;
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    font-weight: bolder;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: gray;
+}
+
+
+
+

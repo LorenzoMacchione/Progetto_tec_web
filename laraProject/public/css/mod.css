@@ -1,0 +1,40 @@
+/*
+Stili per la modalit� di fornitura dei servizi e per la modalit� di adesione come gestore di eventi
+*/
+
+.Title {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    padding: 1.5%;
+    background-color: black;
+    border-radius: 25px;
+    width: fit-content;
+    margin: 1.5% auto;
+}
+
+.Explanation {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    border: 5px;
+    border-style: solid;
+    border-color: black;;
+    border-radius: 10px;
+    border-style: dotted;
+    background-color: black;
+}
+
+.Explanation ul {
+    list-style-type:square;
+    padding: 25px;
+}
+
+.Explanation a {
+    color: white;
+}

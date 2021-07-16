@@ -1,0 +1,174 @@
+/*
+Stili del body
+*/
+
+#Body{
+    background-image: url('../img/concerto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*
+Stili dell'header
+*/
+
+#Header{
+    background-color: #00000080;
+}
+
+#Logo{
+    margin-left: 2.5%;
+}
+
+#Logo img{
+    width: 332px;
+    height: 183px;
+}
+
+#Login_Container {
+    margin-right: 2.5%;
+    margin-top: 135px;
+    float: right;
+}
+
+#Login_Container a {
+    margin: 5px;
+}
+
+#Login_Container button {
+    border: 3px;
+    border-style: solid;
+    border-color: #00000080;
+    border-radius: 10px;
+    padding: 12px 16px;
+    /*
+    Colore blu del logo
+    */
+    background-color: #000d6e80;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#Login_Container form{
+    float: right;
+}
+
+#Login_Container input {
+    border: 3px;
+    border-style: solid;
+    border-color: #00000080;
+    border-radius: 10px;
+    padding: 12px 16px;
+    /*
+    Colore blu del logo
+    */
+    background-color: #000d6e80;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#Login_Container button:hover {
+    /*
+    Colore blu del logo
+    */
+    background-color: #000d6e;
+}
+
+#Searchbar a{
+    margin-right: 2.5%;
+}
+
+#Searchbar {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    height: 40px;
+    /*
+    Colore rosso del logo
+    */
+    background-color: #c40000;
+}
+
+#Searchbar form {
+    margin-right: 60px;
+}
+
+#Searchbar form input {
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    padding: 6px 6px;
+    font-size: 14px;
+    margin-right: 7.5px;
+}
+
+#Searchbar form select {
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: black;
+    padding: 6px 6px;
+    font-size: 14px;
+    margin-right: 7.5px;
+    cursor: pointer;
+}
+
+#Searchbar form button, #Searchbar a button {
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: black;
+    background-color: lightgray;
+    padding: 6px 6px;
+    font-size: 14px;
+    margin-right: 7.5px;
+    cursor: pointer;
+}
+
+#Searchbar form button:hover, #Searchbar a button:hover {
+    background-color: gray;
+}
+
+/*
+Stili del footer
+*/
+
+#Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*
+    Colore rosso del logo
+    */
+    background-color: #c40000;
+}
+
+#Footer a {
+    margin: 2.5%;
+}
+
+#Footer a button {
+    background-color: lightgray;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: black;
+    padding: 12px 16px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#Footer a button:hover {
+    text-decoration: underline;
+    background-color: gray;
+}

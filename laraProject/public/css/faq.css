@@ -1,0 +1,138 @@
+/*
+Stili della pagina delle F.A.Q.
+*/
+
+.message {
+    background-color: black;
+    width: 40%;
+    margin: 2% auto;
+    font-size: 30px;
+    font-weight: bolder;
+    color: greenyellow;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+}
+
+.error {
+    background-color: black;
+    width: 40%;
+    margin: 2% auto;
+    font-size: 30px;
+    font-weight: bolder;
+    color: red;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+}
+
+#New_Container {
+    margin-right: 5%;
+    padding-right: 20px;
+    margin-top: 1.5%;
+    float: right;
+}
+
+#New_Container button {
+    border: 3px;
+    border-style: solid;
+    border-color: #00000080;
+    border-radius: 10px;
+    padding: 12px 16px;
+    cursor: pointer;
+    background-color: #000d6e80;
+    color: white;
+    font-size: 16px;
+}
+
+#New_Container button:hover {
+    /*
+    Colore blu del logo
+    */
+    background-color: #000d6e;
+}
+
+#Faq_Container{
+    clear: right;
+    clear: left;
+    width: 90%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+}
+
+.Title {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    padding: 1.5%;
+    background-color: black;
+    border-radius: 25px;
+    width: 9%;
+    margin: 1.5% auto;
+}
+
+#Faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Faq{
+    border: 5px;
+    border-style: solid;
+    border-style: dotted;
+    border-collapse: collapse;
+    border-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #00000080;
+}
+
+.Faq:hover {
+    background-color: black;
+}
+
+.Faq h3{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+}
+
+.Faq p{
+   margin: 10px; 
+   color: white;
+}
+
+#Button_Container {
+    text-align: right;
+    float: right;
+}
+
+.Button {
+    text-align: center;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+.Button button {
+    padding: 5px;
+    border-collapse: collapse;
+    border-color: black;
+    border: 3px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.Button button:hover {
+    background-color: gray;
+}

@@ -1,0 +1,66 @@
+/*
+Stili per il riepilogo dell'acquisto
+*/
+
+#Acquisto {
+    width: 40%;
+    background-color: black;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 25px;
+    padding-bottom: 2.5%;
+    margin-bottom: 5%;
+}
+
+#Acquisto h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#Acquisto h2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#Acquisto h2 a {
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+#Acquisto #Riepilogo {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: 1px;
+    border-collapse: collapse;
+    border-color: white;
+    border-style: solid;
+}
+
+#Acquisto #Riepilogo th {
+    padding: 5px;
+    font-weight: bolder;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    border: 1px;
+    border-collapse: collapse;
+    border-color: white;
+    border-style: solid;
+}
+
+#Acquisto #Riepilogo td {
+    padding: 5px;
+    font-style: italic;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    border: 1px;
+    border-collapse: collapse;
+    border-color: white;
+    border-style: solid;
+}
